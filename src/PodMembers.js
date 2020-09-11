@@ -33,7 +33,7 @@ class PodMembers extends Component {
 									<div>
 									<div className="no-underline inline-flex items-center ma2 tc br2 pa2">
 										<div className="dib mh3 tc">
-											<img class="br-100 dib h2" src={member.corporate_value.avatar} alt={member.corporate_value.name}/>
+											<img class="br-100 dib h2" src={member.corporate_value.image} alt={member.corporate_value.name}/>
 											<span className="f7 db dark-grey">{member.corporate_value.name}</span>
 										</div>
   								</div>
