@@ -7,7 +7,7 @@ class PodMembers extends Component {
 	}
 
 	componentDidMount() {
-		axios.get('http://ballena-pod-api.herokuapp.com/members.json')
+		axios.get('https://ballena-pod-api.herokuapp.com/members.json')
 			.then((response) => {
 				this.setState({
 					members: response.data,
