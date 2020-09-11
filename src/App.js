@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import PodMembers from './PodMembers'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header class="bg-white black-80 tc pv4 avenir">
+        <img src="/ballena.png" class="w4" alt="avatar"/>
+        <h1 class="mt0 mb0 baskerville i fw1 f1">Ballena Pod</h1>
+        <h2 class="mt2 mb0 f6 fw4 ttu tracked">Our Members</h2>
       </header>
+      <PodMembers/>
     </div>
   );
 }
